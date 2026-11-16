@@ -1,0 +1,388 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Skateboardinfo: la cultura del skate, sus leyendas, tipos de tablas, historia y eventos más importantes." />
+
+        <title>SkateboardInfo</title>
+
+        <link rel="icon" href="./Yeison Monsalve Logo SVG.svg" />
+
+        <!-- Tipografías -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Montserrat:wght@700;800;900&amp;display=swap" rel="stylesheet" />
+
+        <!-- Iconos (redes sociales y ubicación) -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+
+    <body>
+        <!-- Créditos de imágenes -->
+        <!-- Encabezado -->
+        <header class="header" id="header">
+            <div class="container header__inner">
+                <a class="logo" href="#inicio" aria-label="Ir al inicio">
+                    <img src="./Yeison Monsalve Logo SVG.svg" class="logo__icon" alt="Logo" aria-hidden="true">
+                </a>
+
+                <a class="brand" href="#inicio">SKATEBOARDINFO.</a>
+
+                <button class="nav-toggle" id="navToggle" aria-label="Abrir menú" aria-controls="siteNav" aria-expanded="false">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+
+                <nav class="nav" id="siteNav" aria-label="Navegación principal">
+                    <a href="#inicio" class="nav__link is-active">Inicio</a>
+                    <a href="#skaters" class="nav__link">Skaters</a>
+                    <a href="#tablas" class="nav__link">Tablas</a>
+                    <a href="#eventos" class="nav__link">Eventos</a>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <!-- Hero -->
+            <section class="hero" id="inicio">
+                <div class="container hero__content">
+                    <h1>LA CULTURA DEL SKATE</h1>
+                    <p>
+                        Más que un deporte de alto rendimiento, el skateboarding es un estilo de
+                        vida, una terapia personal, una expresión artística que no tiene manual.
+                    </p>
+                    <div class="hero__actions">
+                        <a href="#historia" class="btn btn--primary">Explorar historia</a>
+                        <a href="#skaters" class="btn btn--ghost">Ver PRO Skaters</a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Skaters -->
+            <section class="section section--white" id="skaters">
+                <div class="container">
+                    <p class="eyebrow">LEYENDAS URBANAS</p>
+                    <h2>Skaters profesionales</h2>
+                    <p class="section__intro">
+                        Conoce a los deportistas que transformaron el skate en una disciplina de
+                        reconocimiento global, inspirando nuevas generaciones con su talento,
+                        creatividad y pasión.
+                    </p>
+
+                    <div class="skaters-grid">
+                        <article class="skater-card">
+                            <div class="skater-card__media">
+                                <img src="https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcS-woxLkJ45nLjWiFgnHfs0kCLOnFkXQNezlHslJKEqFCkwwYiMbe0iyENMTFWA8Z8flDwRMhoqaIrJCx4" alt="Nyjah Huston con un trofeo en la competencia KDC 2015" loading="lazy" decoding="async" />
+                            </div>
+                            <div class="skater-card__body">
+                                <div class="skater-card__head">
+                                    <h3>Nyjah Huston</h3>
+                                    <span class="country">EE.UU.</span>
+                                </div>
+                                <p>
+                                    Uno de los competidores más exitosos de la historia del street
+                                    skateboarding, reconocido por sus múltiples títulos
+                                    internacionales y su impacto en el deporte.
+                                </p>
+                            </div>
+                        </article>
+
+                        <article class="skater-card">
+                            <div class="skater-card__media">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7Bhch_R5Oek37zEpQ1ahIfDLB4Hf7Qaj3i2truj_LVeZRo4NicOOtNRw&s=10" alt="Yuto Horigome con una medalla tras una competencia" loading="lazy" decoding="async" />
+                            </div>
+                            <div class="skater-card__body">
+                                <div class="skater-card__head">
+                                    <h3>Yuto Horigome</h3>
+                                    <span class="country">Japón</span>
+                                </div>
+                                <p>
+                                    Pionero olímpico del skateboarding, destacado por su precisión
+                                    técnica y por conquistar la primera medalla de oro olímpica de
+                                    la disciplina.
+                                </p>
+                            </div>
+                        </article>
+
+                        <article class="skater-card">
+                            <div class="skater-card__media">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9hYZTcJ2HtsjFOsADmrxGie6Rf0P_YhA-G3wdF9VCat0t9XDlPTLUWWMaXrsZwuxI10_S_eHhM97-pirhopiN5HzeNapiA9GEOjFExQ&s=10" alt="Rayssa Leal haciendo un truco en un skatepark" loading="lazy" decoding="async" />
+                            </div>
+                            <div class="skater-card__body">
+                                <div class="skater-card__head">
+                                    <h3>Rayssa Leal</h3>
+                                    <span class="country">Brasil</span>
+                                </div>
+                                <p>
+                                    Referente juvenil del skate mundial, admirada por su estilo
+                                    dinámico, consistente y destacadas actuaciones en competencias
+                                    internacionales.
+                                </p>
+                            </div>
+                        </article>
+
+                        <article class="skater-card">
+                            <div class="skater-card__media">
+                                <img src="https://hips.hearstapps.com/hmg-prod/images/image-tony-hawk-1599562589.jpg?crop=0.756xw:1.00xh;0.121xw,0&resize=1200:*" alt="Tony Hawk sonriendo en un evento" loading="lazy" decoding="async" />
+                            </div>
+                            <div class="skater-card__body">
+                                <div class="skater-card__head">
+                                    <h3>Tony Hawk</h3>
+                                    <span class="country">EE.UU.</span>
+                                </div>
+                                <p>
+                                    Leyenda del skateboarding vertical y figura clave de la
+                                    popularización del deporte a nivel mundial.
+                                </p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Tipos de skateboards -->
+            <section class="section section--gray" id="tablas">
+                <div class="container">
+                    <p class="eyebrow">ELIGE TU ESTILO</p>
+                    <h2>Tipos de skateboards</h2>
+                    <p class="section__intro">
+                        Cada tabla está diseñada para una manera de patinar diferente. Descubre cuál
+                        se adapta mejor a tu experiencia, objetivos y forma de recorrer cada
+                        espacio.
+                    </p>
+
+                    <div class="boards-grid">
+                        <article class="board-card">
+                            <img class="board-card__img" src="https://m.media-amazon.com/images/I/91TERAbITGL._AC_UF350,350_QL80_.jpg" alt="Tabla de street con gráficos urbanos apoyada contra una pared amarilla" loading="lazy" decoding="async" />
+                            <div class="board-card__body">
+                                <h3>Street / Classic</h3>
+                                <p>
+                                    La opción más versátil para realizar trucos, saltos y maniobras
+                                    técnicas en calles, plazas y skateparks. Su diseño ofrece gran
+                                    control y precisión.
+                                </p>
+                            </div>
+                            <p class="board-card__specs">
+                                Ancho: 7.75" – 8.5" | Concavidad profunda
+                            </p>
+                        </article>
+
+                        <article class="board-card">
+                            <img class="board-card__img" src="https://lebencompany.com.co/wp-content/uploads/2023/05/bamboo.webp" alt="Patineta cruiser roja vista desde arriba sobre el asfalto" loading="lazy" decoding="async" />
+                            <div class="board-card__body">
+                                <h3>Cruiser</h3>
+                                <p>
+                                    Compacta, cómoda y fácil de transportar. Perfecta para
+                                    desplazamientos diarios gracias a sus ruedas blandas y su manejo
+                                    suave.
+                                </p>
+                            </div>
+                            <p class="board-card__specs">
+                                Ruedas suaves 78A | Forma clásica de los 80s
+                            </p>
+                        </article>
+
+                        <article class="board-card">
+                            <img class="board-card__img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPoGQvKp_aaRhaoVzqGUS1btR5XW3K_ZTt9KRsmeUlSEHoCEFmJWd6zltU&s=10" alt="Longboard de madera con ruedas grandes" loading="lazy" decoding="async" />
+                            <div class="board-card__body">
+                                <h3>Longboard</h3>
+                                <p>
+                                    Diseñada para recorridos largos y descensos a mayor velocidad.
+                                    Proporciona estabilidad y una experiencia fluida en curvas y
+                                    trayectos extensos.
+                                </p>
+                            </div>
+                            <p class="board-card__specs">
+                                Longitud: 38" – 44" | Camiones invertidos
+                            </p>
+                        </article>
+
+                        <article class="board-card">
+                            <img class="board-card__img" src="https://http2.mlstatic.com/D_Q_NP_2X_725584-MCO94466745842_102025-P.webp" alt="Tabla old school desgastada de los años 90" loading="lazy" decoding="async" />
+                            <div class="board-card__body">
+                                <h3>Old School</h3>
+                                <p>
+                                    Inspirada en los diseños clásicos que marcaron los inicios del
+                                    skateboarding. Su forma ancha brinda estabilidad y un estilo
+                                    auténtico.
+                                </p>
+                            </div>
+                            <p class="board-card__specs">
+                                Ancho exagerado 9"+ | Gráficos retro punk
+                            </p>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Historia -->
+            <section class="section section--white" id="historia">
+                <div class="container">
+                    <div class="history">
+                        <div class="history__text">
+                            <p class="eyebrow">LA HISTORIA</p>
+                            <h2>De las calles de California a los juegos olímpicos</h2>
+                            <p class="history__paragraph">
+                                Lo que comenzó como una forma de diversión entre jóvenes en la costa
+                                oeste de Estados Unidos se transformó en uno de los deportes urbanos
+                                más influyentes del mundo. El skateboarding pasó de las calles y
+                                parques locales a los escenarios deportivos más importantes del
+                                planeta.
+                            </p>
+                            <p class="history__paragraph">
+                                Durante las décadas siguientes, la creatividad de los skaters
+                                impulsó la evolución de la disciplina. La aparición de nuevos
+                                materiales, la construcción de skateparks y el crecimiento de la
+                                cultura urbana hicieron del skate mucho más que un deporte: un
+                                estilo de vida con impacto global.
+                            </p>
+
+                            <div class="stat">
+                                <span class="stat__year">2020</span>
+                                <p>
+                                    Año en que el skateboarding debutó oficialmente en los Juegos
+                                    Olímpicos de Tokio, marcando un hito histórico y consolidando su
+                                    reconocimiento a nivel mundial.
+                                </p>
+                            </div>
+                        </div>
+
+                        <figure class="history__media">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRm0SImS0xeiHJIzOYw2nu4Iz4mL7fVRxjHv1sVO2VXmK6jcFHy4IE7PWs&s=10" alt="Skatepark de hormigón en blanco y negro con un skater en el aire" loading="lazy" decoding="async" />
+                        </figure>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Eventos -->
+            <section class="section section--white" id="eventos">
+                <div class="container">
+                    <p class="eyebrow">EL RITMO DEL SKATE</p>
+                    <h2>Eventos destacados del Skateboarding</h2>
+                    <p class="section__intro">
+                        Campeonatos, festivales y competencias más importantes del skateboarding.
+                        Mantente al día con los eventos y revisa los momentos que han marcado la
+                        escena nacional e internacional.
+                    </p>
+
+                    <div class="events-grid">
+                        <article class="event-card">
+                            <div class="event-card__top">
+                                <span class="event-badge event-badge--upcoming">
+                                    PRÓXIMO EVENTO
+                                </span>
+                                <span class="event-date event-date--upcoming">
+                                    2-18 de Octubre, 2026
+                                </span>
+                            </div>
+                            <h3>World Skate Games 2026</h3>
+                            <p>
+                                El mayor evento internacional de deportes sobre ruedas, reunirá a
+                                los mejores atletas del mundo en múltiples disciplinas, incluido el
+                                skateboarding street, park, vert y slalom.
+                            </p>
+                            <p class="event-location"><i class="fa-solid fa-location-dot" aria-hidden="true"></i> Asunción, Paraguay</p>
+                        </article>
+
+                        <article class="event-card">
+                            <div class="event-card__top">
+                                <span class="event-badge event-badge--past">PASADO</span>
+                                <span class="event-date">Agosto, 2026</span>
+                            </div>
+                            <h3>Copa Skateboarding Colombia (CSC 2026)</h3>
+                            <p>
+                                Considerado el evento independiente de skateboarding más importante
+                                del país. Cuenta con categorías como Open, Mujeres, Novatos y Old
+                                School.
+                            </p>
+                            <p class="event-location"><i class="fa-solid fa-location-dot" aria-hidden="true"></i> Fusagasugá, Colombia</p>
+                        </article>
+
+                        <article class="event-card">
+                            <div class="event-card__top">
+                                <span class="event-badge event-badge--past">PASADO</span>
+                                <span class="event-date">Febrero, 2026</span>
+                            </div>
+                            <h3>SLS Sydney Championship Tour 2026</h3>
+                            <p>
+                                Inicio de temporada del Street League Skateboarding con
+                                participación de los mejores riders del circuito profesional.
+                            </p>
+                            <p class="event-location"><i class="fa-solid fa-location-dot" aria-hidden="true"></i> Sídney, Australia</p>
+                        </article>
+
+                        <article class="event-card">
+                            <div class="event-card__top">
+                                <span class="event-badge event-badge--past">PASADO</span>
+                                <span class="event-date">Julio, 2026</span>
+                            </div>
+                            <h3>X Games Chiba 2026</h3>
+                            <p>
+                                Segunda pasada de la X Games League con pruebas de Street y Park y
+                                participación de figuras internacionales del Skate.
+                            </p>
+                            <p class="event-location"><i class="fa-solid fa-location-dot" aria-hidden="true"></i> Chiba, Japón</p>
+                        </article>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container footer__grid">
+                <div class="footer__brand">
+                    <p class="footer__logo">
+                        <span class="footer__mark">S</span>
+                        SKATEBOARDINFO
+                    </p>
+                    <p class="footer__text">
+                        La plataforma ideal para mantenerte informado sobre competencias, atletas,
+                        tendencias y la evolución del skateboarding a nivel nacional e
+                        internacional.
+                    </p>
+                </div>
+
+                <nav class="footer__col" aria-label="Cultura">
+                    <h4>CULTURA</h4>
+                    <a href="#skaters">Skaters</a>
+                    <a href="#historia">Historia</a>
+                </nav>
+
+                <nav class="footer__col" aria-label="Comunidad">
+                    <h4>COMUNIDAD</h4>
+                    <a href="#eventos">Eventos</a>
+                    <a href="#inicio">Skateparks</a>
+                </nav>
+
+                <div class="footer__col">
+                    <h4>SÍGUENOS</h4>
+                    <div class="social">
+                        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube" aria-hidden="true"></i></a>
+                        <a href="#" aria-label="X"><i class="fa-brands fa-x-twitter" aria-hidden="true"></i></a>
+                        <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container footer__bottom">
+                <p>
+                    ©
+                    <span id="year">2026</span>
+                    Skateboardinfo. Todos los derechos reservados.
+                </p>
+                <div class="footer__legal">
+                    <a href="#">Políticas de Privacidad</a>
+                    <a href="#">Términos de Servicio</a>
+                </div>
+            </div>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>
